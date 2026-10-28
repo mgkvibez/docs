@@ -72,7 +72,7 @@
     <tbody>
     <tr>
         <td>Role.any()</td>
-        <td>Grants access to anyone.</td>
+        <td>Grants access to anyone. This covers both guest users without a session and authenticated users, unlike <b>Role.guests()</b> and <b>Role.users()</b>, which each target only one of those groups.</td>
     </tr>
     <tr>
         <td>Role.guests()</td>
